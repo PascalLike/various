@@ -1,9 +1,9 @@
 #!/bin/bash
 
-GN_SOURCES=core-geonetwork
+GN_SOURCES=/home/geonetwork
 GN_PROFILES=env-prod
 DEPLOY_NAME=geonetwork
-GN_DATA_DIR=/var/local/geonetwork/${DEPLOY_NAME}
+GN_DATA_DIR=/usr/local/geonetwork-live/data
 
 RED='\e[31m'
 EC='\e[0m'
